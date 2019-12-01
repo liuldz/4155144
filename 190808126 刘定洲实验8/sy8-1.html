@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style>
+	
+		form{   position: absolute;
+			left: 33%;
+			width: 450px;
+			height: 590px;
+			background-color: #7D7275;
+			line-height: 35px;
+			font-size: 12px;
+		}
+		[type="text"]{
+			width: 120px;
+		}
+		
+		[type="text1"]{
+			width: 300px;
+		}
+		[type="text2"]{
+			width: 30px;
+		}
+		select{
+			width: 80px;
+		}
+		select#option:hover{
+			background-color: #736870;
+		}
+		[type="submit"]{
+			position: relative;
+			left: 180px;
+		}
+		[type="submit"]:hover{
+			background-color: mediumorchid;s
+		}
+		form label{
+			display: inline-block;
+			text-align: right;
+		}
+		
+	</style>
+</head>
+	<body>
+		<form id="kuaidi">
+			<h2 div align="center">增加快递信息</h2>
+			<fieldset id="k1">
+				<legend>发货单</legend>
+				<label>发货人：<input type="text" name="xingming"></label><label>地址：<input type="text" name="didian"></label><br>    
+			    <label>电话：<input type="text" name="电话"></label> <label>邮编：<input type="text" name="youbian"></label>
+			</fieldset>
+			<fieldset id="k2">
+				<legend>收货单</legend>
+				<label>收货人：<input type="text" name="xingming">  </label><label>地址：<input type="text" name="didian"></label><br>    
+		        <label>电话：<input type="text" name="电话"></label> <label>邮编：<input type="text" name="youbian"></label><br>
+				<select>
+					<option>北京市</option>
+					<option>天津市</option>
+					<option>上海市</option>
+					<option>重庆市</option>
+					<option>河北省</option>
+					<option>山西省</option>
+					<option>辽宁省</option>
+					<option>吉林省</option>
+					<option>黑龙江省</option>
+					<option>江苏省</option>
+					<option>浙江省</option>
+					<option>安徽省</option>
+					<option>福建省</option>
+					<option>江西省</option>
+					<option>山东省</option>
+					<option>河南省</option>
+					<option>湖北省</option>
+					<option>湖南省</option>
+					<option>广东省</option>
+					<option>海南省</option>
+					<option>四川省</option>
+					<option>贵州省</option>
+					<option>云南省</option>
+					<option>陕西省</option>
+					<option>甘肃省</option>
+					<option>青海省</option>
+					<option>台湾省</option>
+				
+				<select>
+				<br>
+		        <label>包装：</label>
+				<input type="radio" name="baoz" value="zx" id="zx">
+				<label for="zhixiang">纸箱</label>
+				<input type="radio" name="baoz" value="mx" id="mx">
+				<label for="muxiang">木箱</label>
+				<input type="radio" name="baoz" value="kdd" id="kdd">
+				<label for="kuaididai">快递袋</label>
+				<input type="radio" name="baoz" value="qt" id="qt">
+				<label for="qita">其他</label><br>
+				<label>付款方式：</label>
+				<input type="radio" name="fkfs" value="xj" id="xj">
+				<label for="zhixiang">现金</label>
+				<input type="radio" name="fkfs" value="zfb" id="zfb">
+				<label for="muxiang">支付宝</label>
+				<input type="radio" name="fkfs" value="wy" id="wy">
+				<label for="kuaididai">网银</label>
+				<input type="radio" name="fkfs" value="atm" id="atm">
+				<label for="qita">ATM</label>
+			</fieldset>
+			<fieldset id="k3">
+				<legend>货物信息</legend>
+				<label>货物名称：<input type="text1" name="hwmc"></label><br>    
+		         <label>数量：<input type="text2" name="sl">
+				</label> 
+				<label>重量：<input type="text2" name="zl"></label>
+				<label>发货时间：<input type="text" name=fhsj"></label><br>
+			</fieldset>
+					 <input type="submit" name="submit" value="确定">
+					 <input type="submit" name="submit" value="取消">
+		</form>
+		
+		
+		
+	</body>
+	
+	
+	
+<html>
